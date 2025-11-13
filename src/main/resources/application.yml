@@ -1,4 +1,4 @@
-server.port: 8082
+server.port: 8080
 
 spring:
   application:
@@ -14,5 +14,5 @@ spring:
   jpa:
     database-platform: org.hibernate.dialect.H2Dialect
     hibernate:
-      ddl-auto: create-drop
+      ddl-auto: update
     show-sql: 'true'
